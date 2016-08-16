@@ -1,6 +1,6 @@
 import Foundation
 /**
- * EXAMPLE: Swift.print(CSS.Layout.Display.rawValue)//display
+ * EXAMPLE: Swift.print(CSS.Layout.Display.rawValue)//Output: display
  */
 enum CSS:String {
     enum Layout:String {

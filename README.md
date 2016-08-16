@@ -1,4 +1,5 @@
 ## Goals for Element-iOS:
+- swift 3.0 ready from day 1
 - Styles that query a cache. To speed up style retrieval (research required)
 - Rock-solid padding, margin, floating etc. W/ documentation (no lose ends)
 - Struct, Enum, duplets, and if let style code. Figure out why nil coalescing is so bad

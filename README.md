@@ -7,4 +7,5 @@
 - Use cocoaPods from the start (research required)
 - Use .framework from the start (this will likely speed up build times) (research required)
 - override var's for OOP getters and setters
-- make the RegEx lib leaner 
+- make the RegEx lib leaner (easier to use)
+- use more map, reduce, filter

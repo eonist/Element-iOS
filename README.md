@@ -10,3 +10,7 @@
 - override var's for OOP getters and setters
 - make the RegEx lib leaner (easier to use)
 - use more map, reduce, filter
+
+## Resources for migrating to swift 3.0:
+- https://www.natashatherobot.com/swift-alternatives-to-c-style-for-loops/
+- https://github.com/SwiftStudies/Swift-2.2-to-3.0-RegEx

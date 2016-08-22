@@ -9,11 +9,17 @@
 - Use .framework from the start (this will likely speed up build times) (research required)
 - override var's for OOP getters and setters
 - make the RegEx lib leaner (easier to use)
-- use more map, reduce, filter
+- use more map, reduce, filter, join (Functional programming)
 
 ## Resources for migrating to swift 3.0:
 - https://www.natashatherobot.com/swift-alternatives-to-c-style-for-loops/
 - https://github.com/SwiftStudies/Swift-2.2-to-3.0-RegEx
+
+##Resources for Graphics and Anim lib:
+https://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples
+
+##Resources for making everything more swifty:
+https://www.raywenderlich.com/category/swift
 
 ## Tasks:
 - [ ] Research .framework

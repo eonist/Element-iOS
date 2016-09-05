@@ -25,5 +25,7 @@ https://www.raywenderlich.com/category/swift
 - [ ] Research .framework
 - [ ] Research CocoaPods or alike
 - [ ] Research CALayer and UIView for iOS
+- [ ] Figure out how CGContext works in iOS
+- [ ] Figure out which Text class is most used in iOS (Think anim/calayer etc)
 - [ ] Setup GraphicsLib for iOS
 - [ ] Setup AnimLib for iOS

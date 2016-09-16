@@ -29,3 +29,4 @@ https://www.raywenderlich.com/category/swift
 - [ ] Figure out which Text class is most used in iOS (Think anim/calayer etc)
 - [ ] Setup GraphicsLib for iOS
 - [ ] Setup AnimLib for iOS
+- [ ] Start with the ToggleButtons with insp from CodePen

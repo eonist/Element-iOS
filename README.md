@@ -10,6 +10,9 @@
 - override var's for OOP getters and setters
 - make the RegEx lib leaner (easier to use)
 - use more map, reduce, filter, join (Functional programming)
+- protocol oriented approach on some parts (watch that wwdc on thus topic)
+- private extension and structs for data storage classes  https://www.natashatherobot.com/using-swift-extensions/
+
 
 ## Resources for migrating to swift 3.0:
 - https://www.natashatherobot.com/swift-alternatives-to-c-style-for-loops/

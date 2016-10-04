@@ -12,7 +12,7 @@
 - use more map, reduce, filter, join (Functional programming)
 - protocol oriented approach on some parts (watch that wwdc on thus topic)
 - private extension and structs for data storage classes  https://www.natashatherobot.com/using-swift-extensions/
-
+- make numerical types auto infer to other numeric typpes, int, uint, cgfloat,float double etc. there is a lib that does this on github
 
 ## Resources for migrating to swift 3.0:
 - https://www.natashatherobot.com/swift-alternatives-to-c-style-for-loops/

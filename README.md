@@ -1,18 +1,18 @@
 ## Goals for Element-iOS:
-- swift 3.0 ready from day 1
-- Styles that query a cache. To speed up style retrieval (research required)
+- swift 3.0 ready from day 1 (In-progress)
+- Styles that query a cache. To speed up style retrieval (Done)
 - Rock-solid padding, margin, floating etc. W/ documentation (no lose ends)
-- Struct, Enum, duplets, guard ,guard let, while var, if var and if let style code. Figure out why nil coalescing is so bad
+- Struct, Enum, duplets, guard ,guard let, while var, if var and if let style code. Figure out why nil coalescing is so bad (in-progress)
 - Read more books from objc.io to include more syntactic swift sugar (browse other books for pre-research-sweep)
 - Dedicated iOS Utils Lib: swift-utils-iOS (svg,graphics,event,file - not array and math etc)
-- Use cocoaPods from the start (research required)
+- Use cocoaPods from the start (research required) (complexity issues)
 - Use .framework from the start (this will likely speed up build times) (research required)
 - override var's for OOP getters and setters
 - make the RegEx lib leaner (easier to use)
 - use more map, reduce, filter, join (Functional programming)
-- protocol oriented approach on some parts (watch that wwdc on thus topic)
+- protocol oriented approach on some parts (watch that wwdc on this topic)
 - private extension and structs for data storage classes  https://www.natashatherobot.com/using-swift-extensions/
-- make numerical types auto infer to other numeric typpes, int, uint, cgfloat,float double etc. there is a lib that does this on github
+- **Avoid complexity** (find a way to re-use the non-NSView parts of Element for macOS)
 
 ## Resources for migrating to swift 3.0:
 - https://www.natashatherobot.com/swift-alternatives-to-c-style-for-loops/

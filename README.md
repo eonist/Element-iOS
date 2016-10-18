@@ -24,6 +24,9 @@ https://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples
 ##Resources for making everything more swifty:
 https://www.raywenderlich.com/category/swift
 
+##Mixins with generics can be usefull: 
+https://speakerdeck.com/alisoftware/mixins-over-inheritance-frenchkit-16
+
 ## Tasks:
 - [ ] Research .framework
 - [ ] Research CocoaPods or alike

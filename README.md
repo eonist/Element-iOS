@@ -13,6 +13,7 @@
 - protocol oriented approach on some parts (watch that wwdc on this topic)
 - private extension and structs for data storage classes  https://www.natashatherobot.com/using-swift-extensions/
 - **Avoid complexity** (find a way to re-use the non-NSView parts of Element for macOS)
+- Implement FlexBox for layout postitioning (See Facebook's FlexBox component for inspiration)
 
 ## Resources for migrating to swift 3.0:
 - https://www.natashatherobot.com/swift-alternatives-to-c-style-for-loops/

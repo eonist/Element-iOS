@@ -1,5 +1,5 @@
 ## Goals for Element-iOS:
-- swift 3.0 ready from day 1 (In-progress)
+- Swift 3.0 ready from day 1 (In-progress)
 - Use .framework from the start (this will likely speed up build times) (research required) (Confirmed: splitting up in different frameworks helps with compile time artsy.com, see comments) [here](http://artsy.github.io/blog/2014/11/13/eidolon-retrospective/) 
 - Styles that query a cache. To speed up style retrieval (Done)
 - Rock-solid padding, margin, floating etc. W/ documentation (no lose ends)
@@ -8,7 +8,7 @@
 - Dedicated iOS Utils Lib: swift-utils-iOS (svg,graphics,event,file - not array and math etc)
 - Use cocoaPods from the start (research required) (complexity issues)
 - override var's for OOP getters and setters
-- make the RegEx lib leaner (easier to use)
+- make the RegEx Lib leaner (easier to use)
 - use more map, reduce, filter, join (Functional programming)
 - protocol oriented approach on some parts (watch that wwdc on this topic)
 - private extension and structs for data storage classes  https://www.natashatherobot.com/using-swift-extensions/
@@ -33,6 +33,9 @@ https://realm.io/news/swift-dependency-management-with-carthage/
 https://www.raywenderlich.com/109330/carthage-tutorial-getting-started  
 http://blog.mat.tc/how-to-make-a-carthage-compatible-framework/  
 http://basememara.com/creating-cross-platform-swift-frameworks-ios-watchos-tvos-via-carthage-cocoapods/   
+
+## Apple swift optimization recommendations:
+https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of-large-swift-values
 
 ## Tasks:
 - [ ] Research .framework

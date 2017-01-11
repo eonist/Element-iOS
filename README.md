@@ -40,6 +40,7 @@ https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of
 
 ## Tasks:
 - [ ] Research .framework
+- [ ] Research swift package manager [here](https://swift.org/package-manager/) 
 - [ ] Research CocoaPods or alike
 - [ ] Research CALayer and UIView for iOS
 - [ ] Figure out how CGContext works in iOS

@@ -20,16 +20,16 @@
 - https://www.natashatherobot.com/swift-alternatives-to-c-style-for-loops/
 - https://github.com/SwiftStudies/Swift-2.2-to-3.0-RegEx
 
-##Resources for Graphics and Anim lib:
+## Resources for Graphics and Anim lib:
 https://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples
 
-##Resources for making everything more swifty:
+## Resources for making everything more swifty:
 https://www.raywenderlich.com/category/swift
 
-##Mixins with generics can be usefull: 
+## Mixins with generics can be useful: 
 https://speakerdeck.com/alisoftware/mixins-over-inheritance-frenchkit-16
 
-##Carthage research:
+## Carthage research:
 https://realm.io/news/swift-dependency-management-with-carthage/  
 https://www.raywenderlich.com/109330/carthage-tutorial-getting-started  
 http://blog.mat.tc/how-to-make-a-carthage-compatible-framework/  

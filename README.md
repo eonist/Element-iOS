@@ -1,5 +1,5 @@
 ## Goals for Element-iOS:
-- Swift 3.0 ready from day 1 (In-progress) 👌
+- Swift 3.0 ready from day 1 (In-progress) ✅ 👌
 - Use .framework from the start (this will likely speed up build times) (research required) (Confirmed: splitting up in different frameworks helps with compile time artsy.com, see comments) [here](http://artsy.github.io/blog/2014/11/13/eidolon-retrospective/) 
 - Styles that query a cache. To speed up style retrieval ✅
 - Rock-solid padding, margin, floating etc. W/ documentation (no lose ends)
@@ -14,7 +14,7 @@
 - private extension and structs for data storage classes  https://www.natashatherobot.com/using-swift-extensions/
 - **Avoid complexity** (find a way to re-use the non-NSView parts of Element for macOS)
 - Implement FlexBox for layout positioning (See Facebook's FlexBox component for inspiration) 📐
-- Implement Playground interactivity (Hot reload) 🔥 [ericasadun.com](http://ericasadun.com/2016/01/26/xcode-7-3-beta-2-introduces-live-interactive-playgrounds/)  🔑
+- Implement Playground interactivity (Hot reload) ✅ 🔥 [ericasadun.com](http://ericasadun.com/2016/01/26/xcode-7-3-beta-2-introduces-live-interactive-playgrounds/)  🔑
 
 ## Resources for migrating to swift 3.0:
 - https://www.natashatherobot.com/swift-alternatives-to-c-style-for-loops/

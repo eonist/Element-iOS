@@ -39,7 +39,7 @@ http://basememara.com/creating-cross-platform-swift-frameworks-ios-watchos-tvos-
 https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of-large-swift-values
 
 ## Tasks:
-- [ ] Research .framework 👈
+- [x] Research .framework 👈
 - [ ] Research swift package manager [here](https://swift.org/package-manager/) 
 - [ ] Research CocoaPods or alike
 - [ ] Research CALayer and UIView for iOS

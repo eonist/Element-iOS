@@ -1,3 +1,7 @@
+**Switch VIP:**  
+<img width="172" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/switch_3.mov.gif">  
+
+
 ## Goals for Element-iOS:
 - Swift 3.0 ready from day 1 (In-progress) ✅ 👌
 - Use .framework from the start (this will likely speed up build times) (research required) (Confirmed: splitting up in different frameworks helps with compile time artsy.com, see comments) [here](http://artsy.github.io/blog/2014/11/13/eidolon-retrospective/) 

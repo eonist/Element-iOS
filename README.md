@@ -53,4 +53,4 @@ https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of
 - [ ] Setup AnimLib for iOS 
 - [ ] Start with the ToggleButtons with insp from CodePen
 
-CREATE IEvent and make AN eventCATCHER that can take BUTTONevent etc. think about this a bit
+CREATE IEvent and make AN eventCATCHER that can take BUTTONevent etc. So that we can use enums for constants. think about this a bit

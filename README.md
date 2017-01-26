@@ -1,5 +1,5 @@
 **Switch VIP:**  
-<img width="172" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/switch_3.mov.gif">  
+<img width="204" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/switch_5.mov.gif">  
 
 
 ## Goals for Element-iOS:

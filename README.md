@@ -43,7 +43,7 @@ http://basememara.com/creating-cross-platform-swift-frameworks-ios-watchos-tvos-
 https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of-large-swift-values
 
 ## Tasks:
-- [x] Research .framework 👈
+- [x] Research .framework ✅
 - [ ] Research swift package manager [here](https://swift.org/package-manager/) 
 - [ ] Research CocoaPods or alike
 - [ ] Research CALayer and UIView for iOS
@@ -51,6 +51,6 @@ https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of
 - [ ] Figure out which Text class is most used in iOS (Think anim/calayer etc)
 - [ ] Setup GraphicsLib for iOS 🎨
 - [ ] Setup AnimLib for iOS 
-- [ ] Start with the ToggleButtons with insp from CodePen
+- [ ] Start with the ToggleButtons with insp from CodePen 👈
 
 CREATE IEvent and make AN eventCATCHER that can take BUTTONevent etc. So that we can use enums for constants. think about this a bit ``event.type == .down`` etc

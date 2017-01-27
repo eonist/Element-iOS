@@ -19,7 +19,7 @@
 - **Avoid complexity** (find a way to re-use the non-NSView parts of Element for macOS)
 - Implement FlexBox for layout positioning (See Facebook's FlexBox component for inspiration) 📐
 - Implement Playground interactivity (Hot reload) ✅ 🔥 [ericasadun.com](http://ericasadun.com/2016/01/26/xcode-7-3-beta-2-introduces-live-interactive-playgrounds/)  🔑
-- Make the framework more modular through .framework (use the parts you need) 
+- Make the framework more modular through bundling .framework (use the parts you need) 
 
 ## Resources for migrating to swift 3.0:
 - https://www.natashatherobot.com/swift-alternatives-to-c-style-for-loops/

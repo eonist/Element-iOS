@@ -50,4 +50,3 @@ https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of
 - [ ] Setup AnimLib for iOS 
 - [ ] Start with the ToggleButtons with insp from CodePen 👈
 - [ ] Only adds the css style that has changed when compiling styles.xml 🔑
-

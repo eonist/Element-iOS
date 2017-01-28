@@ -54,5 +54,6 @@ https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of
 - [ ] Setup AnimLib for iOS 
 - [ ] Start with the ToggleButtons with insp from CodePen 👈
 - [ ] Only adds the css style that has changed when compiling styles.xml 🔑
+- [ ] ONLY SCALE THE WIDTH OF THE BG TO WIDTH - (HEIGHT*2) OR ELSE IT WILL DIALATE TO FAST 
 
 CREATE IEvent and make AN eventCATCHER that can take BUTTONevent etc. So that we can use enums for constants. think about this a bit ``event.type == .down`` etc

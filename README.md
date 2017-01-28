@@ -1,4 +1,4 @@
-**Switch VIP:**  
+**Switch WIP:**  
 <img width="190" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/switch_7_2.mov.gif">  
 
 

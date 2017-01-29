@@ -1,6 +1,5 @@
 **Switch WIP:**  
-<img width="190" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/switch_7_2.mov.gif">  
-
+<img width="186" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/switch_8.mov.gif">
 
 ## Goals for Element-iOS:
 - Swift 3.0 ready from day 1 (In-progress) ✅ 👌

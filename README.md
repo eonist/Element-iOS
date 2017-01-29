@@ -40,6 +40,7 @@ https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of
 
 ## Tasks:
 - [x] Research .framework ✅
+- [x] Start with the ToggleButtons with insp from CodePen 👈
 - [ ] Research swift package manager [here](https://swift.org/package-manager/) 
 - [ ] Research CocoaPods or alike
 - [ ] Research CALayer and UIView for iOS
@@ -47,5 +48,4 @@ https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of
 - [ ] Figure out which Text class is most used in iOS (Think anim/calayer etc)
 - [ ] Setup GraphicsLib for iOS 🎨
 - [ ] Setup AnimLib for iOS 
-- [ ] Start with the ToggleButtons with insp from CodePen 👈
 - [ ] Only adds the css style that has changed when compiling styles.xml 🔑

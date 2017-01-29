@@ -1,4 +1,4 @@
-**Switch WIP:**  
+**Switch:**  
 <img width="186" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/switch_8_crop.mp4.gif">
 
 ## Goals for Element-iOS:

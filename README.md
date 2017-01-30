@@ -41,6 +41,7 @@ https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of
 ## Tasks:
 - [x] Research .framework ✅
 - [x] Start with the ToggleButtons ✅
+- [ ] Start writing the .css files for iOS 10 👈
 - [ ] Research swift package manager [here](https://swift.org/package-manager/) 
 - [ ] Research CocoaPods or alike
 - [ ] Research CALayer and UIView for iOS

@@ -30,11 +30,7 @@ https://www.raywenderlich.com/category/swift
 ## Mixins with generics can be useful: 
 https://speakerdeck.com/alisoftware/mixins-over-inheritance-frenchkit-16
 
-## Carthage research:
-https://realm.io/news/swift-dependency-management-with-carthage/  
-https://www.raywenderlich.com/109330/carthage-tutorial-getting-started  
-http://blog.mat.tc/how-to-make-a-carthage-compatible-framework/  
-http://basememara.com/creating-cross-platform-swift-frameworks-ios-watchos-tvos-via-carthage-cocoapods/   
+ 
 
 ## Apple swift optimization recommendations:
 https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of-large-swift-values

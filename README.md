@@ -22,7 +22,7 @@ Read about how the Switch component was made  [here](http://stylekit.org/blog/20
 https://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples
 
 ## Resources for making everything more swifty:
-https://www.raywenderlich.com/category/swift
+https://www.raywenderlich.com/category/swift 🔑🔑🔑
 
 ## Mixins with generics can be useful: 
 https://speakerdeck.com/alisoftware/mixins-over-inheritance-frenchkit-16

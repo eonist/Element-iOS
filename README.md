@@ -8,18 +8,17 @@ Read about how the Switch component was made [here](http://stylekit.org/blog/201
 - Struct, Enum, duplets, guard ,guard let, while var, if var and if let style code. 
 - Spend a day reading books from objc.io to include more syntactic swift sugar (browse other books for pre-research-sweep) then write a blog post about your findings💡
 - override var's for OOP getters and setters (if applicable)
-- Make it more Functional 🤖
 - protocol oriented approach on some parts (watch that wwdc again on this topic) 
-- private extension and structs for data storage classes  https://www.natashatherobot.com/using-swift-extensions/
-- **Avoid complexity** (find a way to re-use the non-NSView parts of Element for macOS)
+- Functional 🤖
+- **Avoid complexity**
 - Have fun 🏄   
-
 
 ## Resources:
 - [Resources for Graphics and Anim lib](https://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples) 
 - [Resources for making everything more swifty](https://www.raywenderlich.com/category/swift)  🔑🔑🔑
 - [Mixins with generics can be useful](https://speakerdeck.com/alisoftware/mixins-over-inheritance-frenchkit-16) 
 - [Apple swift optimization recommendations](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of-large-swift-values) 
+- [private extension and structs for data storage classes](https://www.natashatherobot.com/using-swift-extensions/) 
 
 ## Tasks:
 - [ ] Start writing the .css files for iOS 10 👈

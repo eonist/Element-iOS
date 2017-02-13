@@ -4,30 +4,16 @@
 Read about how the Switch component was made [here](http://stylekit.org/blog/2017/01/24/Switch/)   
 
 ## Goals for Element-iOS:
-- Rock-solid padding, margin, floating etc. W/ documentation (no lose ends)
-- Struct, Enum, duplets, guard ,guard let, while var, if var and if let style code. 
 - Spend a day reading books from objc.io to include more syntactic swift sugar (browse other books for pre-research-sweep) then write a blog post about your findings💡
-- override var's for OOP getters and setters (if applicable)
-- protocol oriented approach on some parts (watch that wwdc again on this topic) 
 - Functional 🤖
-- **Avoid complexity**
 - Have fun 🏄   
 
 ## Resources:
 - [Resources for Graphics and Anim lib](https://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples) 
 - [Resources for making everything more swifty](https://www.raywenderlich.com/category/swift)  🔑🔑🔑
-- [Mixins with generics can be useful](https://speakerdeck.com/alisoftware/mixins-over-inheritance-frenchkit-16) 
 - [Apple swift optimization recommendations](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of-large-swift-values) 
 - [private extension and structs for data storage classes](https://www.natashatherobot.com/using-swift-extensions/) 
 
 ## Tasks:
 - [ ] Start writing the .css files for iOS 10 👈
-- [ ] Research SPM + iOS
-- [ ] Research CALayer and UIView for iOS
-- [ ] Figure out how CGContext works in iOS
-- [ ] Figure out which Text class is most used in iOS (Think anim/calayer etc)
-- [ ] Setup GraphicsLib for iOS 🎨
-- [ ] Research AnimLib for iOS 
-- [ ] Only adds the css style that has changed when compiling styles.xml 🔑
-- [ ] Research FlexBox for layout positioning (See Facebook's FlexBox component for inspiration) 📐
-- [ ] Figure out why nil coalescing is undesired
+- [ ] Research CALayer and UIView that can render CGContext for iOS

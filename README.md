@@ -3,8 +3,8 @@
 
 Read about how the Switch component was made [here](http://stylekit.org/blog/2017/01/24/Switch/)   
 
-## Goals for Element-iOS:
-- Spend a day reading books from objc.io to include more syntactic swift sugar (browse other books for pre-research-sweep) then write a blog post about your findings💡
+## Milestones:
+- Spend a day reading books about the latest swift and write a blog post about your findings 📚
 - Functional 🤖
 - Have fun 🏄   
 

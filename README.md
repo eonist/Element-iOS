@@ -5,21 +5,20 @@ Read about how the Switch component was made  [here](http://stylekit.org/blog/20
 
 ## Goals for Element-iOS:
 - Rock-solid padding, margin, floating etc. W/ documentation (no lose ends)
-- Struct, Enum, duplets, guard ,guard let, while var, if var and if let style code. Figure out why nil coalescing is so bad (in-progress)
+- Struct, Enum, duplets, guard ,guard let, while var, if var and if let style code. Figure out why nil coalescing is undesired
 - Read more books from objc.io to include more syntactic swift sugar (browse other books for pre-research-sweep)💡
-- Dedicated iOS Utils Lib: swift-utils-iOS (svg,graphics,event,file - not array and math etc)
-- Use SPM from the start (if apple adds ios support) or else use carthage
 - override var's for OOP getters and setters
-- make the RegEx Lib leaner (easier to use)
+- make the RegEx Lib simpler to use
 - use more map, reduce, filter, join (Functional programming) 🤖
-- protocol oriented approach on some parts (watch that wwdc on this topic) 
+- protocol oriented approach on some parts (watch that wwdc again on this topic) 
 - private extension and structs for data storage classes  https://www.natashatherobot.com/using-swift-extensions/
 - **Avoid complexity** (find a way to re-use the non-NSView parts of Element for macOS)
 - Implement FlexBox for layout positioning (See Facebook's FlexBox component for inspiration) 📐
- [ericasadun.com](http://ericasadun.com/2016/01/26/xcode-7-3-beta-2-introduces-live-interactive-playgrounds/)  🔑
+ 
 
 ## Resources for Graphics and Anim lib:
 https://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples
+[ericasadun.com](http://ericasadun.com/2016/01/26/xcode-7-3-beta-2-introduces-live-interactive-playgrounds/)  🔑
 
 ## Resources for making everything more swifty:
 https://www.raywenderlich.com/category/swift 🔑🔑🔑
@@ -31,9 +30,6 @@ https://speakerdeck.com/alisoftware/mixins-over-inheritance-frenchkit-16
 https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of-large-swift-values
 
 ## Tasks:
-- [x] Research .framework ✅
-- [x] Start with the ToggleButtons ✅
-- [x] Research swift package manager [here](https://swift.org/package-manager/) ✅
 - [ ] Start writing the .css files for iOS 10 👈
 - [ ] Research SPM + iOS
 - [ ] Research CALayer and UIView for iOS

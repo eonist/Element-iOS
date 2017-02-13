@@ -8,13 +8,10 @@ Read about how the Switch component was made  [here](http://stylekit.org/blog/20
 - Struct, Enum, duplets, guard ,guard let, while var, if var and if let style code. Figure out why nil coalescing is undesired
 - Read more books from objc.io to include more syntactic swift sugar (browse other books for pre-research-sweep)💡
 - override var's for OOP getters and setters
-- make the RegEx Lib simpler to use
-- use more map, reduce, filter, join (Functional programming) 🤖
+- Make it more Functional 🤖
 - protocol oriented approach on some parts (watch that wwdc again on this topic) 
 - private extension and structs for data storage classes  https://www.natashatherobot.com/using-swift-extensions/
 - **Avoid complexity** (find a way to re-use the non-NSView parts of Element for macOS)
-- Implement FlexBox for layout positioning (See Facebook's FlexBox component for inspiration) 📐
- 
 
 ## Resources for Graphics and Anim lib:
 https://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples
@@ -36,5 +33,6 @@ https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of
 - [ ] Figure out how CGContext works in iOS
 - [ ] Figure out which Text class is most used in iOS (Think anim/calayer etc)
 - [ ] Setup GraphicsLib for iOS 🎨
-- [ ] Setup AnimLib for iOS 
+- [ ] Research AnimLib for iOS 
 - [ ] Only adds the css style that has changed when compiling styles.xml 🔑
+- [ ] Research FlexBox for layout positioning (See Facebook's FlexBox component for inspiration) 📐

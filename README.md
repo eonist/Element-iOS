@@ -10,7 +10,7 @@ Read about how the Switch component was made [here](http://stylekit.org/blog/201
 
 ## Resources:
 - [Resources for Graphics and Anim lib](https://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples) 
-- [Resources for making everything more swifty](https://www.raywenderlich.com/category/swift)  🔑🔑🔑
+- [Resources for making everything more swifty](https://www.raywenderlich.com/category/swift)  🔑
 - [Apple swift optimization recommendations](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of-large-swift-values) 
 - [private extension and structs for data storage classes](https://www.natashatherobot.com/using-swift-extensions/) 
 

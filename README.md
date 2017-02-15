@@ -15,5 +15,5 @@ The story behind how the Switch component was made [here](http://stylekit.org/bl
 - [private extension and structs for data storage classes](https://www.natashatherobot.com/using-swift-extensions/) 
 
 ## Tasks:
-- [ ] Start writing the .css files for iOS 10 👈
-- [ ] Research CALayer and UIView that can render CGContext for iOS
+- [ ] Start writing the iOS CSS 👈
+- [ ] Research iOS CALayer/UIView/CGContext

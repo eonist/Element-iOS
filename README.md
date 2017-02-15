@@ -17,3 +17,4 @@ The story behind how the Switch component was made [here](http://stylekit.org/bl
 ## Tasks:
 - [ ] iOS .css 👈
 - [ ] iOS CALayer/UIView/CGContext
+- [ ] quadrilateral 📐 Agnes for 💡

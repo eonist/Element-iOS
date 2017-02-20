@@ -15,5 +15,5 @@ WIP blog post for the Switch component [here](http://stylekit.org/blog/2017/01/2
 - [private extension and structs for data storage classes](https://www.natashatherobot.com/using-swift-extensions/) 
 
 ## Tasks:
-- [ ] iOS .css 👈
-- [ ] iOS CALayer/UIView/CGContext
+- [ ] Basic iOS .css 👈
+- [ ] Research iOS CALayer/UIView/CGContext

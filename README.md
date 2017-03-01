@@ -13,7 +13,7 @@ WIP blog post for the Switch component [here](http://stylekit.org/blog/2017/01/2
 - [Resources for making everything more swifty](https://www.raywenderlich.com/category/swift)  🔑
 - [Apple swift optimization recommendations](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#the-cost-of-large-swift-values) 
 - [private extension and structs for data storage classes](https://www.natashatherobot.com/using-swift-extensions/) 
-- Chris Eidhof - Functional Programming in Swift  [here](https://realm.io/news/functional-programming-swift-chris-eidhof/) + book  
+- Chris Eidhof - Functional Programming in Swift (The book and video):  [here](https://realm.io/news/functional-programming-swift-chris-eidhof/)  
 
 ## Tasks:
 - [ ] Basic iOS .css 👈

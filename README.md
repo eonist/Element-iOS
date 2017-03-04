@@ -18,3 +18,7 @@ WIP blog post for the Switch component [here](http://stylekit.org/blog/2017/01/2
 ## Tasks:
 - [ ] Basic iOS .css 👈
 - [ ] Research iOS CALayer/UIView/CGContext
+
+## Sponsors:
+[<img width="150" alt="img" src="https://rawgit.com/stylekit/img/master/appcode-logo.svg">
+](https://www.jetbrains.com/objc/) 

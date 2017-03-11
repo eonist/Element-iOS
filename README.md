@@ -1,7 +1,7 @@
 **Switch:**  
 <img width="186" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/switch8crop20fps.gif">  
 
-WIP blog post for the Switch component [here](http://stylekit.org/blog/2017/01/24/Switch/)   
+See the progression of the Switch component [here](http://stylekit.org/blog/2017/01/24/Switch/)   
 
 ## Milestones:
 - Spend a day reading books 📚

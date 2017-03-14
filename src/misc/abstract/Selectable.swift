@@ -1,9 +1,10 @@
 import Foundation
 
-protocol Selectable{
+protocol Selectable:class{
     var selected:Bool {get set}
 }
-
 extension Selectable{
-    var selected:Bool{get set}
+    func setSelected(_ selected:Bool){
+        self.selected = selected
+    }
 }

@@ -1,9 +1,10 @@
 import Foundation
 
-protocol Focusable{
-    var cocused:Bool {get set}
+protocol Checkable:class{
+    var checkable:Bool {get set}
 }
-
-extension Focusable{
-    var focused:Bool{get set}
+extension Selectable{
+    func setCheckable(_ checkable:Bool){
+        self.checkable = checkable
+    }
 }

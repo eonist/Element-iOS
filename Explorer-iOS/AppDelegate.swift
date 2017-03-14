@@ -27,7 +27,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 //mouseUpInside ->
 
-
+//truth is that you dont need checkable etc to come from deep. they are shallow calls only in Element v1.
+//but you need deep calls from 
 
 
     

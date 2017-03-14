@@ -7,5 +7,5 @@ extension Element:IElement{
     //var id:String{get set}
     //var parent:NSView{get set}
     //var skin:ISKin{}
+    //var state
 }
-get 

@@ -1,5 +1,5 @@
 import Foundation
 
-class CustomCheckButton {
+class CustomCheckButton:CheckButton {
 
 }

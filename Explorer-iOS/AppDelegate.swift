@@ -9,11 +9,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         Swift.print("hello world")
         
-        let customBtn = CustomButton()
+        //let customBtn = CustomButton()
         //Swift.print("customBtn.checked: " + "\(customBtn.isChecked)")
         //customBtn.setChecked(true)
         //_ = customBtn.getChecked()
-        Swift.print("customBtn.checked: " + "\(customBtn.isChecked)")
+        //Swift.print("customBtn.checked: " + "\(customBtn.isChecked)")
+        
+        let customCheckButton = CustomCheckButton()
+        Swift.print("customCheckButton.isChecked: " + "\(customCheckButton.isChecked)")
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

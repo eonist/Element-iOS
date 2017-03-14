@@ -3,8 +3,6 @@ import Foundation
 protocol ICheckButton:Checkable{}
 extension CheckButton:ICheckButton{}
 
-protocol ICheckButton {}
-
 extension CheckButton{
     /*Checkable*/
     func setChecked(_ checked:Bool){

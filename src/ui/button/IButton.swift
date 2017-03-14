@@ -5,7 +5,9 @@ extension Button:IButton{}
 
 /*This are proxy overrides to reach protocols, in swift 4 we won't need these*/
 extension Button{
-    
+    func touchDown(_ event:TouchEvent){
+        (self as Touchable).touchDown(event)//forward to default Touchable implementation
+    }
     /*Disableable*/
     func setDisabled(_ disabled:Bool){
         (self as Disableable).setDisabled(disabled)

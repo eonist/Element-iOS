@@ -13,10 +13,6 @@ extension CheckButton{
     }
     func touchDown(_ event: TouchEvent) {
         Swift.print("BUtton.touchDown(\(event))")
-        /*(self as Checkable)*/
+        (self as Touchable).touchDown(event)
     }
 }
-extension Button{
-    
-}
-//,Selectable,Checkable

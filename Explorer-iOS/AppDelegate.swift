@@ -29,6 +29,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 //truth is that you dont need checkable etc to come from deep. they are shallow calls only in Element v1.
 //but you need deep calls from 
+// I think you can even do the shallow deep trick if you need panel to be disabled from dna, 
 
 
     

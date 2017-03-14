@@ -8,7 +8,7 @@ extension Button{
     /*func touchDown(_ event:TouchEvent){
      (self as Touchable).touchDown(event)//forward to default Touchable implementation
      }*/
-    func touchUpInside(_ event:Bool){
+    func touchUpInside(_ event:TouchEvent){
         (self as Touchable).touchUpInside(event)
     }
     /*Disableable*/

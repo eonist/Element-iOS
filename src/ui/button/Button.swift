@@ -5,6 +5,6 @@ class Button:Element{
     var isDisabled:Bool = false
     override init(){
         super.init()
-        touchUpInside(false)
+        touchUpInside(TouchEvent)
     }
 }

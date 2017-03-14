@@ -1,6 +1,6 @@
 import Foundation
 //protocol TouchEvent{}
-class TouchEvent:NSObject{}
+class TouchEvent:NSObject{}/*⚠️️ must extend NSObject or else, you will get the "declaration in extensions cannot override yet" */
 
 protocol Touchable:class {//extend eventsender here as all Touchables must be IEvnetSendable
     

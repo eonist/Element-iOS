@@ -13,4 +13,9 @@ extension Custom {
         Swift.print("custom setCheck: \(checked)")
         (self as! Checkable).setChecked(checked)
     }
+    func getChecked()->Bool{
+        let isChecked:Bool = (self as! Checkable).getChecked()
+        Swift.print("custom getChecked(): \(isChecked)")
+        return isChecked
+    }
 }

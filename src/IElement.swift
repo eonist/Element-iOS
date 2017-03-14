@@ -9,7 +9,7 @@ protocol IElement:IInteractiveView{
 }
 extension Element:IElement{}
 
-//these are overridable from extensions
+//these are overridable from extensions (travel upstream)
 extension Element{
     //func getState()->State
     //func setState(_ state:State)

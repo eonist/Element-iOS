@@ -6,6 +6,6 @@ protocol Touchable:class {
 }
 extension Touchable{
     func touchDown(_ event:TouchEvent){
-        
+        Swift.print("Touchable.touchDown()")
     }
 }

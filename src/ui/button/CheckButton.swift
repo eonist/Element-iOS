@@ -1,5 +1,8 @@
 import Foundation
 
-class CheckButton {
-
+class CheckButton:Button {
+    var isChecked:Bool = false
+    override init() {
+        super.init()
+    }
 }

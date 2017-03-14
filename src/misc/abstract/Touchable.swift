@@ -9,7 +9,7 @@ extension Touchable{
     func touchDown(_ event:TouchEvent){
         Swift.print("Touchable.touchDown() inform parent that event occured")
     }
-    func touchUpInside(_ event:TouchEvent){
+    func touchUpInside(_ event:String){
         Swift.print("Touchable.touchUpInside() inform parent that event occured")
     }
 }

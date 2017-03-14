@@ -11,6 +11,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         _ = CheckButton()
         
+        //Try CheckButton. setCheck etc. Then try adding method to Checkable 🏀
         
         //let customBtn = CustomButton()
         //Swift.print("customBtn.checked: " + "\(customBtn.isChecked)")

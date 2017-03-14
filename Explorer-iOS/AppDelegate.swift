@@ -10,9 +10,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         Swift.print("hello world")
         
         let customBtn = CustomButton()
-        Swift.print("customBtn.checked: " + "\(customBtn.isChecked)")
-        customBtn.setChecked(false)
-        _ = customBtn.getChecked()
+        //Swift.print("customBtn.checked: " + "\(customBtn.isChecked)")
+        //customBtn.setChecked(true)
+        //_ = customBtn.getChecked()
         Swift.print("customBtn.checked: " + "\(customBtn.isChecked)")
     }
 

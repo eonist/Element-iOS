@@ -12,6 +12,7 @@ extension CheckButton{
         return (self as Checkable).getChecked()
     }
     override func touchUpInside(_ event:TouchEvent) {
+        super.touchUpInside(event)
         Swift.print("CheckButton.touchUpInside()")
         (self as Touchable).touchUpInside(event)
     }

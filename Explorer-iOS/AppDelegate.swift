@@ -8,6 +8,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         Swift.print("hello world")
+        
+        let customBtn = CustomButton()
+        Swift.print("customBtn.checked: " + "\(customBtn.isChecked)")
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

@@ -1,5 +1,6 @@
 import Foundation
-struct TouchEvent{}
+protocol TouchEvent{}
+struct Event:TouchEvent{}
 
 protocol Touchable:class {//extend eventsender here as all Touchables must be IEvnetSendable
     

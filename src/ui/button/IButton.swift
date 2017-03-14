@@ -25,4 +25,11 @@ extension Button{
     func getFocused()->Bool{
         return (self as Focusable).getFocused()
     }
+    /**/
+    func setSelected(_ selected:Bool){
+        self.isSelected = selected
+    }
+    func getSelected()->Bool{
+        return (self as Selectable).isSelected
+    }
 }

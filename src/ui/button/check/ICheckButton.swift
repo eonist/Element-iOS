@@ -15,7 +15,7 @@ extension CheckButton{
      Swift.print("BUtton.touchDown(\(event))")
      (self as Touchable).touchDown(event)
      }*/
-    override func touchUpInside(_ event:TouchEvent) {
+    override func touchUpInside(_ event:Bool) {
         Swift.print("CheckButton.touchUpInside()")
         (self as Touchable).touchUpInside(event)
     }

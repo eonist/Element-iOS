@@ -1,6 +1,6 @@
 import Foundation
 
-protocol ICheckButton:Checkable,Touchable{}
+protocol ICheckButton:Checkable{}
 extension CheckButton:ICheckButton{}
 
 extension CheckButton{

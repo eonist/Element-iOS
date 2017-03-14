@@ -11,7 +11,23 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         _ = CheckButton()
         
-        //Try CheckButton. setCheck etc. Then try adding method to Checkable 🏀
+        
+        //continue here: 🏀
+            //Try CustomizedCheckButton and see if you can continue to override TOuchUpINside
+            //simplify setChecked, it doesnt need to travel upstream, IF you want it to you can adhock with travel tech
+        
+            //Focusable, CheckAble,Selectable, Disablable they all dont need to travel upstream. You set their state from shallow.
+        
+            //Only touchable and Statable should travel upstream.
+        
+            //getState
+
+        
+        
+        
+        
+        
+        
         
         //let customBtn = CustomButton()
         //Swift.print("customBtn.checked: " + "\(customBtn.isChecked)")

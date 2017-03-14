@@ -1,17 +1,16 @@
 import Foundation
 
-protocol ICustomCheckButton {
-
-}
-
-extension CustomButton{
+extension CustomCheckButton{
     override func setChecked(_ checked:Bool) {
         (self as Custom).setChecked(checked)
     }
 }
-extension CustomButton:Custom{}
+extension CustomCheckButton:Custom{}
 
 protocol Custom{}
+/**
+ * Custom is portable to any Checkable, its not tied to CustomCheckButton, Reuability!!! 👌
+ */
 extension Custom {
     func setChecked(_ checked:Bool){
         Swift.print("custom setCheck: \(checked)")

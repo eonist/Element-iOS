@@ -1,9 +1,10 @@
 import Foundation
 
-protocol Focusable{
+protocol Focusable:class{
     var focused:Bool {get set}
 }
-
 extension Focusable{
-    var focused:Bool{get set}
+    func setFocused(_ focused:Bool){
+        self.focused = focused
+    }
 }

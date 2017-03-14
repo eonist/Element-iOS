@@ -6,6 +6,6 @@ class Button:Element,IButton{
     var isChecked:Bool = false
     var isDisabled:Bool = false
     override init(){
-        super.init()Focusable.swift
+        super.init()
     }
 }

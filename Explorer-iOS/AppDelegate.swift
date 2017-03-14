@@ -7,7 +7,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        Swift.print("hello world")
+        //Swift.print("hello world")
         
         _ = CheckButton()
         

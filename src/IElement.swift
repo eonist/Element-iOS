@@ -9,5 +9,5 @@ extension Element:IElement{
     //var skin:ISKin{}//we store state in skin
     //func getState()
     //func setState()
-    //func 
+    //var classType:String{get}
 }

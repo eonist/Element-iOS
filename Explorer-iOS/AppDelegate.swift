@@ -11,7 +11,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         let customBtn = CustomButton()
         Swift.print("customBtn.checked: " + "\(customBtn.isChecked)")
-        
+        customBtn.setChecked(false)
+        _ = customBtn.getChecked()
+        Swift.print("customBtn.checked: " + "\(customBtn.isChecked)")
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

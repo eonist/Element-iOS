@@ -1,6 +1,6 @@
 import Foundation
 
-class ISelectableButton {
+protocol ISelectableButton {
 
 }/*
 extension SelectButton{

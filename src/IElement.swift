@@ -1,3 +1,3 @@
 import Foundation
 
-protocol IElement:IInteractiveView{}
+protocol IElement:class/*IInteractiveView*/{}

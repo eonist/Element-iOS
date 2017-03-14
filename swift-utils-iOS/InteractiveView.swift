@@ -1,5 +1,5 @@
 import Foundation
-
+/*
 class InteractiveView:NSObject,Touchable{
     override init(){
         super.init()
@@ -7,3 +7,4 @@ class InteractiveView:NSObject,Touchable{
     }
     
 }
+*/

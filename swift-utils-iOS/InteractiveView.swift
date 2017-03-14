@@ -5,7 +5,19 @@ class InteractiveView:NSObject,Touchable{
         super.init()
         touchDown(TouchEvent())//simulates touchDown from deep
     }
+    
+}
+protocol IInteractiveView{
+    /*Disableable*/
+    func setDisabled(_ disabled:Bool){
+        (self as Disableable).setDisabled(disabled)
+    }
     func touchDown(_ event:TouchEvent){
-        //forward to parent
+        (self as Touchable).touchDown()
     }
 }
+extension InteractiveView:IInteractiveView{
+    
+}
+
+/**/

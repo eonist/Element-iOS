@@ -8,4 +8,7 @@ extension Touchable{
     func touchDown(_ event:TouchEvent){
         Swift.print("Touchable.touchDown() inform parent that touchUp occured")
     }
+    func touchUpInside(){
+        
+    }
 }

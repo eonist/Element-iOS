@@ -1,5 +1,5 @@
 import Foundation
-
+/*
 extension CustomButton{
     override func setChecked(_ checked:Bool) {
         (self as Custom).setChecked(checked)
@@ -19,3 +19,4 @@ extension Custom {
         return isChecked
     }
 }
+*/

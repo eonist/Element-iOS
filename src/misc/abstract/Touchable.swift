@@ -1,6 +1,6 @@
 import Foundation
-protocol TouchEvent{}
-struct Event:TouchEvent{}
+//protocol TouchEvent{}
+class TouchEvent:NSObject{}
 
 protocol Touchable:class {//extend eventsender here as all Touchables must be IEvnetSendable
     
@@ -9,7 +9,7 @@ extension Touchable{
     func touchDown(_ event:TouchEvent){
         Swift.print("Touchable.touchDown() inform parent that event occured")
     }
-    func touchUpInside(_ event:String){
+    func touchUpInside(_ event:TouchEvent){
         Swift.print("Touchable.touchUpInside() inform parent that event occured")
     }
 }

@@ -11,5 +11,8 @@ extension CheckButton{
     func getChecked()->Bool{
         return (self as Checkable).getChecked()
     }
-    
+    func touchDown(_ event: TouchEvent) {
+        Swift.print("BUtton.touchDown(\(event))")
+        (self as Touchable).touchDown(event)
+    }
 }

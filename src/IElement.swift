@@ -6,6 +6,8 @@ extension Element:IElement{
     //var size:CGSize{get set}
     //var id:String{get set}
     //var parent:NSView{get set}
-    //var skin:ISKin{}
-    //var state
+    //var skin:ISKin{}//we store state in skin
+    //func getState()
+    //func setState()
+    //func 
 }

@@ -1,5 +1,5 @@
 import Foundation
 
-class CustomButton {
+class CustomButton:Button {}
 
-}
+

@@ -1,5 +1,7 @@
 import Foundation
-
-class Element {
-
+protocol IElement:class{}
+class Element:NSObject {
+    override init(){
+        super.init()
+    }
 }

@@ -1,8 +1,9 @@
 import Foundation
 
-protocol IButton:IElement,Checkable,Disableable,Focusable{}
+protocol IButton:IElement,Checkable,Disableable,Focusable,Selectable{}
 extension Button:IButton{}
 
+/*This are proxy overrides to reach protocols, in swift 4 we won't need these*/
 extension Button{
     /*Checkable*/
     func setChecked(_ checked:Bool){
@@ -25,9 +26,9 @@ extension Button{
     func getFocused()->Bool{
         return (self as Focusable).getFocused()
     }
-    /**/
+    /*Selectable*/
     func setSelected(_ selected:Bool){
-        self.isSelected = selected
+        (self as Selectable).isSelected = selected
     }
     func getSelected()->Bool{
         return (self as Selectable).isSelected

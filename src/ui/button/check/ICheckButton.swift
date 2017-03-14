@@ -11,5 +11,6 @@ extension CheckButton{
     func getChecked()->Bool{
         return (self as Checkable).getChecked()
     }
+    
 }
 //,Selectable,Checkable

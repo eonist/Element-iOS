@@ -1,7 +1,7 @@
 import Foundation
 
-extension InteractiveView:IInteractiveView{}
 protocol IInteractiveView:Touchable{}
+extension InteractiveView:IInteractiveView{}
 
 extension InteractiveView{
     func touchDown(_ event:TouchEvent){

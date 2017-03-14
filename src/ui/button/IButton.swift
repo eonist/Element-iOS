@@ -1,6 +1,6 @@
 import Foundation
 
-protocol IButton:IElement,Disableable,Focusable{}
+protocol IButton:IElement,Disableable,Focusable,Touchable{}
 extension Button:IButton{}
 
 /*This are proxy overrides to reach protocols, in swift 4 we won't need these*/

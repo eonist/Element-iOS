@@ -5,7 +5,7 @@ import Foundation
  * NOTE: Why do we create override proxy methods? to reach protocols. 
  * NOTE: Override adds bulk, but consider this. a CustomCheckbutton only needs to override 2 methods, not the other 6
  */
-class Element:InteractiveView {
+class Element:NSObject {
     override init(){
         super.init()
     }

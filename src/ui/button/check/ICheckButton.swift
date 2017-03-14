@@ -1,6 +1,6 @@
 import Foundation
 
-protocol ICheckButton:Checkable{}
+protocol ICheckButton:Checkable,Touchable{}
 extension CheckButton:ICheckButton{}
 
 extension CheckButton{
@@ -11,7 +11,7 @@ extension CheckButton{
     func getChecked()->Bool{
         return (self as Checkable).getChecked()
     }
-    override func touchDown(_ event: TouchEvent) {
+    func touchDown(_ event: TouchEvent) {
         Swift.print("BUtton.touchDown(\(event))")
         /*(self as Checkable)*/
     }

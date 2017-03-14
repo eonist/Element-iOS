@@ -17,3 +17,7 @@ extension CheckButton{
         (self as Touchable).touchUpInside(event)
     }
 }
+
+//Try CustomizedCheckButton and see if you can continue to override TOuchUpINside
+//simplify setChecked, it doesnt need to travel upstream, IF you want it to you can adhock with travel tech
+//

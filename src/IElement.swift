@@ -1,3 +1,10 @@
 import Foundation
 
-protocol IElement:class/*IInteractiveView*/{}
+protocol IElement:IInteractiveView{}
+
+extension Element:IElement{
+    var size:CGSize{get set}
+    var id:String{get set}
+    var parent:NSView{get set}
+    
+}

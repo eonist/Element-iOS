@@ -7,7 +7,7 @@ extension Checkable{
     func setChecked(_ checked:Bool){
         self.checked = checked
     }
-    func getChecked(){
-        self.checked = checked
+    func getChecked()->Bool{
+        return self.checked
     }
 }

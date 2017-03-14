@@ -1,10 +1,13 @@
 import Foundation
 
 protocol Focusable:class{
-    var focused:Bool {get set}
+    var isFocused:Bool {get set}
 }
 extension Focusable{
     func setFocused(_ focused:Bool){
-        self.focused = focused
+        self.isFocused = focused
+    }
+    func getFocused()->Bool{
+        return self.isFocused
     }
 }

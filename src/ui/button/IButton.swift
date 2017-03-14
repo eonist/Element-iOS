@@ -1,6 +1,6 @@
 import Foundation
 
-protocol IButton:IElement,Checkable,Disableable{}
+protocol IButton:IElement,Checkable,Disableable,Focusable{}
 extension Button:IButton{}
 
 extension Button{
@@ -17,5 +17,12 @@ extension Button{
     }
     func getDisabled()->Bool{
         return (self as Disableable).getDisabled()
+    }
+    /*Focusable*/
+    func setFocused(_ focused:Bool){
+        (self as Focusable).setFocused(focused)
+    }
+    func getFocused()->Bool{
+        return (self as Focusable).getFocused()
     }
 }

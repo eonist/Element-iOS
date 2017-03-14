@@ -1,7 +1,7 @@
 import Foundation
 class TouchEvent{}
 
-protocol Touchable:class {
+protocol Touchable:class {//extend eventsender here as all Touchables must be IEvnetSendable
     
 }
 extension Touchable{

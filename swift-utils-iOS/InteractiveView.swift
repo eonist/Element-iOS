@@ -7,17 +7,3 @@ class InteractiveView:NSObject,Touchable{
     }
     
 }
-protocol IInteractiveView{
-    /*Disableable*/
-    func setDisabled(_ disabled:Bool){
-        (self as Disableable).setDisabled(disabled)
-    }
-    func touchDown(_ event:TouchEvent){
-        (self as Touchable).touchDown()
-    }
-}
-extension InteractiveView:IInteractiveView{
-    
-}
-
-/**/

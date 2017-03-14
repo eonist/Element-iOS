@@ -1,10 +1,10 @@
 import Foundation
 
 protocol Disableable:class{
-    var disableable:Bool {get set}
+    var disabled:Bool {get set}
 }
 extension Disableable{
-    func setDisableable(_ disableable:Bool){
-        self.disableable = disableable
+    func setDisabled(_ disabled:Bool){
+        self.disabled = disabled
     }
 }

@@ -1,10 +1,10 @@
 import Foundation
 
 protocol Checkable:class{
-    var checkable:Bool {get set}
+    var checked:Bool {get set}
 }
 extension Checkable{
-    func setCheckable(_ checkable:Bool){
-        self.checkable = checkable
+    func setCheckable(_ checked:Bool){
+        self.checked = checked
     }
 }

@@ -1,7 +1,7 @@
 import Foundation
 
-protocol IButton:IElement{}
-protocol IButton:Checkable{}
+
+protocol IButton:IElement,Checkable{}
 extension Button:IButton{}
 extension Button{
     func setCheck(_ checked:Bool){

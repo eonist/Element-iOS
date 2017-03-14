@@ -28,8 +28,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 //mouseUpInside ->
 
 //truth is that you dont need checkable etc to come from deep. they are shallow calls only in Element v1.
+//make Touchable -> touch up inside , touchUpOutside, touchDown -> see gestures i guess. 
 //but you need deep calls from 
-// I think you can even do the shallow deep trick if you need panel to be disabled from dna, 
+// I think you can even do the shallow deep trick if you need panel to be disabled from dna, but adhock. test this
 
 
     

@@ -1,5 +1,9 @@
 import Foundation
 
-class Focusable {
+protocol Selectable{
+    var selected:Bool {get set}
+}
 
+extension Selectable{
+    var selected:Bool{get set}
 }

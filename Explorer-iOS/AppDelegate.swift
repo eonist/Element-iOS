@@ -22,4 +22,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 }
 
 
-//
+//Continue here: 
+    //remove the implicit setters and getters, favour explcit getters and setters, even though duality.!?!?
+
+
+
+    

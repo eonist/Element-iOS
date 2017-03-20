@@ -9,7 +9,7 @@ extension CustomCheckButton:Custom{}
 
 protocol Custom{}
 /**
- * Custom is portable to any Checkable, its not tied to CustomCheckButton, Reuability!!! 👌
+ * Custom is portable to any Checkable, it's not tied to CustomCheckButton, Reuability!!! 👌
  */
 extension Custom {
     func setChecked(_ checked:Bool){

@@ -9,7 +9,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         //Swift.print("hello world")
         
-        _ = CheckButton()
+        //_ = CheckButton()
         
         let customCheckButton = CustomCheckButton()
         _ = customCheckButton

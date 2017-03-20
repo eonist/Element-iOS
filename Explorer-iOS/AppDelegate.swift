@@ -14,11 +14,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         //continue here: 🏀
             //Try CustomizedCheckButton and see if you can continue to override TOuchUpINside
-            //simplify setChecked, it doesnt need to travel upstream, IF you want it to you can adhock with travel tech
+            //simplify setChecked, it doesn't need to travel upstream, IF you want it to you can adhock with travel tech 👌
         
-            //Focusable, CheckAble,Selectable, Disablable they all dont need to travel upstream. You set their state from shallow.
+            //Focusable, CheckAble,Selectable, Disablable they all don't need to travel upstream. You set their state from shallow.
         
-            //Only touchable and Statable should travel upstream.
+            //Only touchable and Statable should travel upstream. 👈
         
             //getState
 

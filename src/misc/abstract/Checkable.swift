@@ -5,11 +5,11 @@ protocol Checkable:class{
 }
 extension Checkable{
     func setChecked(_ checked:Bool){
-        //Swift.print("default setChecked")
+        Swift.print("Checkable.setChecked")//default
         self.isChecked = checked
     }
     func getChecked()->Bool{
-        Swift.print("default getCheked")
+        Swift.print("Checkable.getCheked")//default
         return self.isChecked
     }
 }

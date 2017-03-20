@@ -11,7 +11,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         _ = CheckButton()
         
-        
+        let customCheckButton = CustomCheckButton()
+        _ = customCheckButton
         //continue here: 🏀
             //Try CustomizedCheckButton and see if you can continue to override TOuchUpINside
             //simplify setChecked, it doesn't need to travel upstream, IF you want it to you can adhock with travel tech 👌

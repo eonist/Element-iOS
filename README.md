@@ -1,7 +1,8 @@
 **Switch:**  
 <img width="186" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/switch8crop20fps.gif">  
 
-See the progression of the Switch component [here](http://stylekit.org/blog/2017/01/24/Switch/)   
+- See the progression of the Switch component [here](http://stylekit.org/blog/2017/01/24/Switch/)   
+- Element for iOS is in the expermientation phase. More info in the [wiki](https://github.com/eonist/Element-iOS/wiki) 
 
 ## Milestones:
 - Spend a day reading books 📚

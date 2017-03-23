@@ -20,6 +20,9 @@
 - [ ] Basic iOS .css 👈
 - [ ] Research iOS CALayer/UIView/CGContext
 
+## Support
+Please, don't hesitate to file an issue if you have questions.
+
 ## Sponsors:
 [<img width="150" alt="img" src="https://rawgit.com/stylekit/img/master/appcode-logo.svg">
 ](https://www.jetbrains.com/objc/) 

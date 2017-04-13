@@ -22,13 +22,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             //Only touchable and Statable should travel upstream. 👈
         
             //getState
-
-        
-        
-        
-        
-        
-        
         
         //let customBtn = CustomButton()
         //Swift.print("customBtn.checked: " + "\(customBtn.isChecked)")

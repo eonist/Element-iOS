@@ -6,9 +6,9 @@ enum EventType:String{
 }
 struct Event{
     var type:EventType
-    var origin:AnyObject
-    var immediate:AnyObject
-    init(_ type:EventType = .none, _ origin:AnyObject){
+    var origin:Any
+    var immediate:Any
+    init(_ type:EventType = .none, _ origin:Any){
         self.type = type
         self.origin = origin
         self.immediate = origin
@@ -19,7 +19,7 @@ extension Event{
      * The immediate previouse sender of event
      * NOTE: we return the event as its convenient when chaining method calls, great for attaching self to incoming events
      */
-    mutating func setImmediate(_ immediate:AnyObject)->Event{
+    mutating func setImmediate(_ immediate:Any)->Event{
         self.immediate = immediate
         return self
     }

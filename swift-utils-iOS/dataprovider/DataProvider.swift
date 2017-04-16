@@ -1,11 +1,10 @@
 import Foundation
 
-import Foundation
 
 struct DataProvider:DataProvidable,EventSendable {
     var event:EventCallBack = {return{(event:Event) -> Void in}}()
-    func onEvent(_ event:Event){
-        //self.event!(event.setImmediate(self))
+    func onEvent(_ event: inout Event){
+        self.event!(event.setImmediate(self))
     }
     var items:[[String:String]]
     var count:Int{return self.items.count}

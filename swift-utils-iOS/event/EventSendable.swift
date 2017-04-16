@@ -6,7 +6,7 @@ protocol EventSendable {
 }
 
 extension EventSendable{
-    var event:EventCallBack = {return{(event:Event) -> Void in}}()
+    static var callBack:EventCallBack {return{(event:Event) -> Void in}}
     func onEvent(_ event: inout Event){
         self.event!(event.setImmediate(self))
     }

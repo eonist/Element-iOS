@@ -2,6 +2,7 @@ import Foundation
 
 
 struct DataProvider:DataProvidable,EventSendable {
+    var event:EventCallBack = EventSendable.callBack
     
     var items:[[String:String]]
     

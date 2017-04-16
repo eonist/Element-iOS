@@ -1,6 +1,6 @@
 import Foundation
 
-var eventCallBack:EventCallBack {return{(event:Event) -> Void in}}
+var eventCallBack:EventCallBack {return{(event:Event) -> Void in}}//default event callBack
 
 enum EventType:String{
     case update = "eventUpdate"

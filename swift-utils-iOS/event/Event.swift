@@ -1,5 +1,7 @@
 import Foundation
 
+var eventCallBack:EventCallBack {return{(event:Event) -> Void in}}
+
 enum EventType:String{
     case update = "eventUpdate"
     case none = ""

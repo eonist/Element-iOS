@@ -2,13 +2,13 @@ import Foundation
 
 enum EventType:String{
     case update = "eventUpdate"
+    case none = ""
 }
 struct Event{
-    static var update:String = "eventUpdate"
-    var type:String
+    var type:EventType
     var origin:AnyObject
     var immediate:AnyObject
-    init(_ type:String = "", _ origin:AnyObject){
+    init(_ type:EventType = .none, _ origin:AnyObject){
         self.type = type
         self.origin = origin
         self.immediate = origin

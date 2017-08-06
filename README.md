@@ -1,10 +1,10 @@
 ## **Element iOS:**  
-The demo bellow is using [Animator](https://github.com/gitsync/AnimLib) 
+The demo bellow is using [Animator](https://github.com/gitsync/AnimLib)   
 <img width="226" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/video_iphone.gif?maxAge=2512168">  
 
 ## **Switch:**  
 - See the progression of the Switch component [here](http://stylekit.org/blog/2017/01/24/Switch/)   
-- Element for iOS is in the expermientation phase. More info in the [wiki](https://github.com/eonist/Element-iOS/wiki) 
+- Element for iOS is in the expermientation phase. More info in the [wiki](https://github.com/eonist/Element-iOS/wiki)   
 <img width="186" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/switch8crop20fps.gif">  
 
 ## Milestones:

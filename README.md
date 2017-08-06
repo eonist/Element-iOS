@@ -1,3 +1,7 @@
+**Prototyping in playground:**
+<img width="226" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/video_iphone.gif?maxAge=2512168">
+The demo above is using [Animator](https://github.com/gitsync/AnimLib) 
+
 **Switch:**  
 <img width="186" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/switch8crop20fps.gif">  
 
